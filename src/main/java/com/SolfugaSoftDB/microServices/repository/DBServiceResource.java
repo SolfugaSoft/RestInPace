@@ -47,4 +47,5 @@ public class DBServiceResource {
     private List<User> getAllUsers() {
         return userRepository.findAll().stream().collect(Collectors.toList());
     }
+
 }
